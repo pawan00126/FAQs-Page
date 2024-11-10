@@ -1,0 +1,45 @@
+@media (max-width: 400px){
+    body {
+        
+        background-image: url("background-pattern-mobile.svg");
+    
+    }
+    
+    
+    .card {
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+        width: 75vw;
+        padding: 10px;
+
+        padding-right: 10px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    /* ---------------------------------- */
+    
+    .question{
+        flex-direction: row;
+        /* border: 2px solid red; */
+        padding-right:10px;
+    
+        
+    }
+
+    .qtext{
+        /* border: 2px solid green; */
+        font-size: 1rem;
+        margin-right: 20px;
+    }
+    
+    
+    
+
+
+}

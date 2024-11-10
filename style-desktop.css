@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+
+.heading {
+    display: flex;
+
+    /* border: 2px solid purple; */
+}
+
+.heading h1 {
+    /* border: 2px solid red; */
+    margin-left: 20px;
+}
+
+body {
+    background-color: hsl(275, 100%, 97%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans';
+}
+
+.card {
+    box-shadow: 1px 1px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.question {
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.question:hover {
+    color: hsl(293, 100%, 50%);
+    cursor: pointer;
+}
+
+
+
+.answer {
+    /* display: block; */
+    /* border: 2px solid red; */
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+
+
+@media (min-width: 800px) {
+
+    body {
+
+        background-image: url("background-pattern-desktop.svg");
+
+    }
+
+
+    .card {
+
+
+        width: 35vw;
+        padding: 20px;
+
+        margin-top: 200px;
+        margin-bottom: 150px;
+    }
+
+
+
+
+
+
+
+    /* ---------------------------------- */
+
+    .question {
+        /* border: 2px solid red; */
+
+        padding: 10px;
+        padding-left: 0px;
+
+    }
+
+
+
+
+
+
+
+
+}
